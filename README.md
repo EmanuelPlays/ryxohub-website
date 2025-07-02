@@ -1,4 +1,3 @@
-#########################################################
 ## Privacy Policy
 
 **Effective Date:** 02/07/2025
@@ -19,4 +18,3 @@ We may update this Privacy Policy from time to time. Any changes will be posted 
 
 ### Contact Us
 If you have any questions about this Privacy Policy, please contact us at emanuelplays@proton.me
-##################################################################

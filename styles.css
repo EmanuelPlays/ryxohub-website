@@ -5,6 +5,41 @@ body {
     background-size: cover;
     color: white;
     text-align: center;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+.sparkle-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Allow clicks to pass through */
+}
+
+.sparkle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    pointer-events: none; /* Prevent interaction */
+    animation: sparkle-animation 1s infinite;
+}
+
+@keyframes sparkle-animation {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
 }
 
 .container {
